@@ -10,3 +10,4 @@ c:\users\jose\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsForm
 c:\users\jose\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Bienvanido.resources
 c:\users\jose\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Usuario.resources
 c:\users\jose\documents\visual studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Lector.resources
+C:\Users\JOSE\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.libro.resources

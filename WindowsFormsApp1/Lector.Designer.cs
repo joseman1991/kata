@@ -63,6 +63,7 @@
             this.button2.TabIndex = 14;
             this.button2.Text = "Cerrar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button1
             // 
@@ -73,6 +74,7 @@
             this.button1.Text = "Insertar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyUp);
             // 
             // groupBox1
             // 
@@ -117,6 +119,7 @@
             this.busca.Size = new System.Drawing.Size(539, 20);
             this.busca.TabIndex = 101;
             this.busca.Visible = false;
+            this.busca.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyUp);
             // 
             // dataGridView1
             // 

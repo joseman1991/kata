@@ -62,24 +62,44 @@ namespace WindowsFormsApp1
 
         private void añdirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Lector lector = new Lector();        
+            Lector lector = new Lector();
+            lector.inicializarCodigo();
             lector.ShowDialog();
         }
 
         private void actualizarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Lector lector = new Lector();
-            lector.opcion = 1;
-            lector.inicializarCodigo();
+            lector.opcion = 1;           
             lector.ShowDialog();
         }
 
         private void eliminarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Lector lector = new Lector();
-            lector.opcion = 2;
-            lector.inicializarCodigo();
+            lector.opcion = 2;           
             lector.ShowDialog();
+        }
+
+        private void añadirLibroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            libro l = new libro();
+            l.inicializarCodigo();
+            l.ShowDialog();
+        }
+
+        private void eliminarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            libro l = new libro();
+            l.opcion = 1;
+            l.ShowDialog();
+        }
+
+        private void eliminarToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            libro l = new libro();
+            l.opcion =2;
+            l.ShowDialog();
         }
     }
 }
