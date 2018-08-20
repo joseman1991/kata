@@ -75,19 +75,19 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show(this, "Error" + e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch (SqlNullValueException ex)
-            {
-                nu.Text = "1";
-            }
+           
         }
 
         public void inicializarCodigo()
         {
             try
             {
-
                 nu.Text = udao.idlectores().ToString();
-           
+            }
+            catch (SqlNullValueException ex)
+            {
+                nu.Text = "1";
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

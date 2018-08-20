@@ -70,6 +70,7 @@ namespace WindowsFormsApp1
         {
             Lector lector = new Lector();
             lector.opcion = 1;
+            lector.inicializarCodigo();
             lector.ShowDialog();
         }
 
@@ -77,6 +78,7 @@ namespace WindowsFormsApp1
         {
             Lector lector = new Lector();
             lector.opcion = 2;
+            lector.inicializarCodigo();
             lector.ShowDialog();
         }
     }
